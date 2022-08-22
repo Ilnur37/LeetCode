@@ -12,6 +12,6 @@ public class Main {
         ListNode l3 = new ListNode(3, l2);
         ListNode l4 = new ListNode(5, l3);
         ListNode l5 = new ListNode(-1, l4);
-        T148.sortList(l5);
+        //T148.sortList(l5);
     }
 }
