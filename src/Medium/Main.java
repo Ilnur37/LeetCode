@@ -16,6 +16,7 @@ public class Main {
         int[][] arr4 = new int[][]{{2,1,1},{0,1,1},{1,0,1}};
         int[][] arr5 = new int[][]{{2,0,1,1,1,1,1,1,1,1},{1,0,1,0,0,0,0,0,0,1},{1,0,1,0,1,1,1,1,0,1},{1,0,1,0,1,0,0,1,0,1},{1,0,1,0,1,0,0,1,0,1},
         {1,0,1,0,1,1,0,1,0,1},{1,0,1,0,0,0,0,1,0,1},{1,0,1,1,1,1,1,1,0,1},{1,0,0,0,0,0,0,0,0,1},{1,1,1,1,1,1,1,1,1,1}};
-        System.out.println(T994.orangesRotting(arr4));
+        //System.out.println(T994.orangesRotting(arr4));
+        System.out.println(T567.checkInclusion("ab","eidbaooo"));
     }
 }
