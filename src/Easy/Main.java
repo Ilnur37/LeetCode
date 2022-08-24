@@ -13,5 +13,6 @@ public class Main {
         Easy.ListNode l5 = new Easy.ListNode(1, l4);
 
         System.out.println(T234.isPalindrome(l5));
+
     }
 }
