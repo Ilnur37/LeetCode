@@ -13,7 +13,7 @@ public class T994 {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (grid[i][j] == 1) {
-                    count++;//Count the number of fresh oranges
+                    count++;
                 }
                 if (grid[i][j] == 2) {
                     queue.add(new int[] { i, j });
@@ -23,9 +23,9 @@ public class T994 {
         int minute = 0;
         while (count > 0 && !queue.isEmpty()) {
             minute++;
-            int n = queue.size();//The number of rotten oranges in the current layer, because each layer is updating the queue
+            int n = queue.size();
             for (int i = 0; i < n; i++) {
-                int[] decomposed = queue.poll();//The rotten oranges go out
+                int[] decomposed = queue.poll();
                 int row = decomposed[0];
                 int col = decomposed[1];
                 for (int k = 0; k < 4; k++) {
@@ -34,12 +34,11 @@ public class T994 {
                     if (x >= 0 && x < rows && y >= 0 && y < cols && grid[x][y] == 1) {
                         grid[x][y] = 2;
                         count--;
-                        queue.add(new int[] { x, y });//Rotten oranges join the team
+                        queue.add(new int[] { x, y });
                     }
                 }
             }
         }
-        //If there are healthy oranges, return -1, otherwise, return the time
         return count > 0 ? -1 : minute;
     }
 }
