@@ -17,6 +17,7 @@ public class Main {
         int[][] arr5 = new int[][]{{2,0,1,1,1,1,1,1,1,1},{1,0,1,0,0,0,0,0,0,1},{1,0,1,0,1,1,1,1,0,1},{1,0,1,0,1,0,0,1,0,1},{1,0,1,0,1,0,0,1,0,1},
         {1,0,1,0,1,1,0,1,0,1},{1,0,1,0,0,0,0,1,0,1},{1,0,1,1,1,1,1,1,0,1},{1,0,0,0,0,0,0,0,0,1},{1,1,1,1,1,1,1,1,1,1}};
         //System.out.println(T994.orangesRotting(arr4));
-        System.out.println(T567.checkInclusion("ab","eidbaooo"));
+        //System.out.println(T567.checkInclusion("ab","eidbaooo"));
+        T784.letterCasePermutation("a1b2");
     }
 }
