@@ -18,6 +18,7 @@ public class Main {
         {1,0,1,0,1,1,0,1,0,1},{1,0,1,0,0,0,0,1,0,1},{1,0,1,1,1,1,1,1,0,1},{1,0,0,0,0,0,0,0,0,1},{1,1,1,1,1,1,1,1,1,1}};
         //System.out.println(T994.orangesRotting(arr4));
         //System.out.println(T567.checkInclusion("ab","eidbaooo"));
-        T784.letterCasePermutation("a1b2");
+        //T784.letterCasePermutation("a1b2");
+        T77.combine(4,2);
     }
 }
