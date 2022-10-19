@@ -1,10 +1,11 @@
 package Medium;
 
+import Hard.T1335;
 import Hard.T42;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = new int[]{0,1,0,2,1,0,1,3,2,1,2,1};
+        int[] arr = new int[]{6,5,4,3,2,1};
         int[][] arr2 = new int[][]{{1,2,3,4},{5,6,7,8},{9,10,11,12}};
         int[] arr3 = new int[]{2,7,11,15};
         //T54.spiralOrder(arr2);
@@ -22,6 +23,7 @@ public class Main {
         //T784.letterCasePermutation("a1b2");
         //T77.combine(4,2);
         //T48.rotate(arr5);
-        T42.trap(arr);
+        //T42.trap(arr);
+        T1335.minDifficulty(arr,2);
     }
 }
