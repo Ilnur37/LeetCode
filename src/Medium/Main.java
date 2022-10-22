@@ -6,7 +6,7 @@ import Hard.T76;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = new int[]{6,5,4,3,2,1};
+        int[] arr = new int[]{-1,2,1,-4};
         int[][] arr2 = new int[][]{{1,2,3,4},{5,6,7,8},{9,10,11,12}};
         int[] arr3 = new int[]{2,7,11,15};
         //T54.spiralOrder(arr2);
@@ -26,6 +26,7 @@ public class Main {
         //T48.rotate(arr5);
         //T42.trap(arr);
         //T1335.minDifficulty(arr,2);
-        T76.minWindow("ADOBECODEBANC", "ABC");
+        //T76.minWindow("ADOBECODEBANC", "ABC");
+        T16.threeSumClosest(arr, 1);
     }
 }
