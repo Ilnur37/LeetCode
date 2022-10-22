@@ -2,6 +2,7 @@ package Medium;
 
 import Hard.T1335;
 import Hard.T42;
+import Hard.T76;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,6 +25,7 @@ public class Main {
         //T77.combine(4,2);
         //T48.rotate(arr5);
         //T42.trap(arr);
-        T1335.minDifficulty(arr,2);
+        //T1335.minDifficulty(arr,2);
+        T76.minWindow("ADOBECODEBANC", "ABC");
     }
 }
