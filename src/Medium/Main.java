@@ -2,6 +2,7 @@ package Medium;
 
 import Easy.T645;
 import Hard.T1335;
+import Hard.T4;
 import Hard.T42;
 import Hard.T76;
 
@@ -29,6 +30,6 @@ public class Main {
         //T1335.minDifficulty(arr,2);
         //T76.minWindow("ADOBECODEBANC", "ABC");
         //T645.findErrorNums(arr);
-        T64.minPathSum(arr4);
+        T4.findMedianSortedArrays(new int[]{}, new int[]{2,3});
     }
 }
