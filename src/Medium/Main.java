@@ -30,6 +30,7 @@ public class Main {
         //T1335.minDifficulty(arr,2);
         //T76.minWindow("ADOBECODEBANC", "ABC");
         //T645.findErrorNums(arr);
-        T4.findMedianSortedArrays(new int[]{}, new int[]{2,3});
+        //T4.findMedianSortedArrays(new int[]{}, new int[]{2,3});
+        T93.restoreIpAddresses("101023");
     }
 }
