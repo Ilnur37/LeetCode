@@ -31,8 +31,8 @@ public class Main {
         //T76.minWindow("ADOBECODEBANC", "ABC");
         //T645.findErrorNums(arr);
         //T4.findMedianSortedArrays(new int[]{}, new int[]{2,3});
-        //T93.restoreIpAddresses("101023");
+        T93.restoreIpAddresses("101023");
         //T171.titleToNumber("AB");
-        T2196.createBinaryTree(new int[][] {{20,15,1},{20,17,0},{50,20,1},{50,80,0},{80,19,1}});
+        //T2196.createBinaryTree(new int[][] {{20,15,1},{20,17,0},{50,20,1},{50,80,0},{80,19,1}});
     }
 }

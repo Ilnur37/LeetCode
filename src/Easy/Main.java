@@ -4,7 +4,7 @@ import Medium.ListNode;
 
 public class Main {
     public static void main(String[] args) {
-        String a = "Let's take LeetCode contest";
+        /*String a = "Let's take LeetCode contest";
         //T557.reverseWords(a);
         Easy.ListNode l1 = new Easy.ListNode(1);
         Easy.ListNode l2 = new Easy.ListNode(2, l1);
@@ -19,9 +19,11 @@ public class Main {
         TreeNode t4 = new TreeNode(9);
         TreeNode t5 = new TreeNode(2, t1, t2);
         TreeNode t6 = new TreeNode(7,t3,t4);
-        TreeNode t7 = new TreeNode(1,t5,t6);
-
-
-        T226.invertTree(t7);
+        TreeNode t7 = new TreeNode(1,t5,t6);*/
+        //T226.invertTree(t7);
+        int[] arr1 = new int[] {1,2,7,0,0,0};
+        int[] arr2 = new int[] {2,5,6};
+        //T88.merge(arr1, 3, arr2, 3);
+        T28.strStr("mississippi", "issip");
     }
 }
